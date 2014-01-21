@@ -14,12 +14,16 @@
 div[data-role="header"] {
 	margin-bottom:12px;
 }
-body, div #splashcreen {
+div#splashcreen .ui-body-d, .ui-dialog.ui-overlay-d{
 			background:url(images/screen-hdpi-landscape.png) repeat scroll transparent !important;
 		}
-#logo {
-	padding:10px;
-}
+div#splashcreen #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+	
+	
 .ui-body-d, .ui-dialog.ui-overlay-d {
 			background:url(images/screen-hdpi-portrait-lite.jpg) repeat scroll center transparent !important;
 		}
