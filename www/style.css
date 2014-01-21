@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
  body, div[data-role="page"], div[data-role="content"], .swipeArea {
-                height: 100%;
-				width:100%;   
+                height: 98%;
+				 
             }
 
-div #splashcreen {
+body, div #splashcreen {
 			background:url(images/screen-hdpi-landscape.png) repeat scroll center;
 		}
 #logo {
