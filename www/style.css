@@ -10,26 +10,28 @@
     margin-bottom: 0.5em;
     margin-top: -0.5em;
     padding-bottom: 2.6em;
-				 
-            }
-
+	 }
+div[data-role="header"] {
+	margin-bottom:12px;
+}
 body, div #splashcreen {
-			background:url(images/screen-hdpi-landscape.png) repeat scroll center;
+			background:url(images/screen-hdpi-landscape.png) repeat scroll transparent !important;
 		}
 #logo {
 	padding:10px;
 }
-body, div #splashcreen {
-			background:url(images/screen-hdpi-lite.png) repeat scroll center;
+.ui-body-d, .ui-dialog.ui-overlay-d {
+			background:url(images/screen-hdpi-portrait-lite.jpg) repeat scroll center transparent !important;
 		}
+
 
 
 .ui-header .ui-title, .ui-footer .ui-title {
     display: block;
-    font-family: Open Sans;
+    font-family: Open Sans !important;
     font-size: 30px !important;
     margin: 0.6em 90px 0.8em;
-    min-height: 1.1em;
+    min-height: 2em;
     outline: 0 none !important;
     overflow: hidden;
     text-align: center;
@@ -49,13 +51,20 @@ body, div #splashcreen {
 
 .ui-bar-a {
     background: linear-gradient(#FC22A2, #EC068D) repeat scroll 0 0 #111111 !important;
-    border: 1px solid #2A2A2A !important;
+    border: 0px solid #2A2A2A !important;
+    box-shadow: 0 1px 12px #000000;
     color: #FFFFFF;
     font-weight: bold;
     text-shadow: 0 -1px 1px #000000;
+    z-index: 200000;
 }
 
-
+a#home {
+	   background: url("images/btn-home.png") no-repeat scroll center center rgba(0, 0, 0, 0) !important;
+    border: medium none;
+    height: 55px;
+    width: 55px;
+}
 .jqm-content > h1 {
     clear: both;
     color: #333333 !important;
