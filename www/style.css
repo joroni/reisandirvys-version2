@@ -2,6 +2,14 @@
 /* CSS Document */
  body, div[data-role="page"], div[data-role="content"], .swipeArea {
                 height: 98%;
+				color: #333333;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+    line-height: 135%;
+    margin-bottom: 0.5em;
+    margin-top: -0.5em;
+    padding-bottom: 2.6em;
 				 
             }
 
@@ -11,3 +19,56 @@ body, div #splashcreen {
 #logo {
 	padding:10px;
 }
+body, div #splashcreen {
+			background:url(images/screen-hdpi-lite.png) repeat scroll center;
+		}
+
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    display: block;
+    font-family: Open Sans;
+    font-size: 30px !important;
+    margin: 0.6em 90px 0.8em;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ui-header, .ui-footer, .ui-page-fullscreen .ui-header, .ui-page-fullscreen .ui-footer {
+    border-left-width: 0;
+    border-right-width: 0;
+    height: 70px !important;
+    overflow: hidden;
+    padding-top: 10px !important;
+    position: absolute;
+    width: 100%;
+}
+
+.ui-bar-a {
+    background: linear-gradient(#FC22A2, #EC068D) repeat scroll 0 0 #111111 !important;
+    border: 1px solid #2A2A2A !important;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #000000;
+}
+
+
+.jqm-content > h1 {
+    clear: both;
+    color: #333333 !important;
+    font-family: 'Open Sans',sans-serif!important;
+    font-size: 2.4em!important;
+    font-weight: 300!important;
+}
+
+
+.jqm-list .ui-btn-inner, .ui-btn {
+    font-family: 'Open Sans',sans-serif !important;
+    font-size: 0.95em !important;
+    font-weight: 300 !important;
+}
+
+a#
