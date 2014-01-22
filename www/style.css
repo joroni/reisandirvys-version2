@@ -1,21 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
  body, div[data-role="page"], div[data-role="content"], .swipeArea {
-                height: 98%;
+                height: 100%;
 				color: #333333;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 120%;
-    font-weight: 300;
-    line-height: 135%;
-    margin-bottom: 0.5em;
-    margin-top: -0.5em;
-    padding-bottom: 2.6em;
+				font-family: 'Open Sans',sans-serif;
+				font-size: 120%;
+				font-weight: 300;
+				line-height: 135%;
+				margin-bottom: 0.5em;
+				margin-top: -0.5em;
+				padding-bottom: 2.6em;
 	 }
 div[data-role="header"] {
-	margin-bottom:12px;
+	margin-bottom:25px;
 }
-div#splashcreen .ui-body-d, .ui-dialog.ui-overlay-d{
-			background:url(images/screen-hdpi-landscape.png) repeat scroll transparent !important;
+div#splashscreen.ui-page div.ui-content{
+			background:url(images/screen-hdpi-portrait.jpg) repeat scroll transparent !important;
 		}
 div#splashcreen #logo {
     display: block;
@@ -23,23 +23,26 @@ div#splashcreen #logo {
     margin-right: auto
 	}
 	
-	
+
 .ui-body-d, .ui-dialog.ui-overlay-d {
 			background:url(images/screen-hdpi-portrait-lite.jpg) repeat scroll center transparent !important;
 		}
 
 
 
+
 .ui-header .ui-title, .ui-footer .ui-title {
     display: block;
-    font-family: Open Sans !important;
+    font-family: 'Open Sans',san-serif !important;
     font-size: 30px !important;
-    margin: 0.6em 90px 0.8em;
+    font-weight: normal;
+    margin: 0.3em !important;
     min-height: 2em;
     outline: 0 none !important;
     overflow: hidden;
     text-align: center;
     text-overflow: ellipsis;
+    text-shadow: 1px -1px 1px #555555;
     white-space: nowrap;
 }
 
@@ -53,22 +56,61 @@ div#splashcreen #logo {
     width: 100%;
 }
 
-.ui-bar-a {
-    background: linear-gradient(#FC22A2, #EC068D) repeat scroll 0 0 #111111 !important;
-    border: 0px solid #2A2A2A !important;
-    box-shadow: 0 1px 12px #000000;
+
+.ui-bar-a, .ui-bar-d {
+       background: linear-gradient(#F944AE, #EC068D) repeat scroll 0 0 #111111 !important;
+    border-bottom: 1px solid #333333 !important;
+    box-shadow: 0 1px 12px #FFFFFF;
     color: #FFFFFF;
     font-weight: bold;
     text-shadow: 0 -1px 1px #000000;
     z-index: 200000;
 }
+p.preloader {
+    background-color: #000000;
+    border-radius: 10px;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0 4px 10px;
+    width: 30px;
+	}
+
+#block-user-login, .login {
+	background:#FFF;
+	
+}
+
+form#user-login-form {
+	min-width: 300px;
+	max-width: 400px;
+	padding:20px;
+	margin: 0 auto;
+}
+
+
+form#user-login-form.user-login-form div ul li {
+    line-height: 2em;
+    list-style: none outside none;
+    margin-left: -40px;
+}
+
+form#user-login-form.user-login-form div ul li a.ui-link {
+	font-size: 0.7em;
+    font-weight: normal;
+    text-decoration: none;
+	
+}
+a#home.ui-btn-icon-left .ui-btn-inner {
+    padding-left: 10px;
+}
 
 a#home {
-	   background: url("images/btn-home.png") no-repeat scroll center center rgba(0, 0, 0, 0) !important;
+	   /*background: url("images/btn-home.png") no-repeat scroll center center rgba(0, 0, 0, 0) !important;*/
     border: medium none;
     height: 55px;
     width: 55px;
 }
+
 .jqm-content > h1 {
     clear: both;
     color: #333333 !important;
@@ -84,4 +126,3 @@ a#home {
     font-weight: 300 !important;
 }
 
-a#
