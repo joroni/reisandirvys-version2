@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+ <link href="font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <title>jQuery Mobile Web App</title>
 <link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
 <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -38,36 +38,29 @@
 <body onLoad="goto#splashscreen">
 
 <div data-role="page" id="splashscreen" data-theme="d">
-	<!--<div data-role="header">
-		<h1>Reis & Irvy's</h1>
-	</div>-->
-  <!--  <ul data-role="listview">
-			<li><a href="#page1">Next</a></li>
-			
-		</ul>-->
+
 	<div data-role="content">
     <center>
-		<p  class="preloader">
+		<!--<p  class="preloader">
          <img src="images/preloader.gif">
-        </p>
+        </p>-->
         <p>
         <img src="logo.png" width="200" height="" id="logo">
         </p>
        </center> 
       </div>
 	
-	<div data-role="footer">
+
    <script>
     setTimeout(function () {
    window.location.href = "#page1"; //will redirect to your blog page (an ex: blog.html)
-}, 7000); //will call the function after 2 secs.
+}, 5000); //will call the function after 2 secs.
 </script>
-		<!--<h4>Page Footer</h4>-->
-	</div>
+	
 </div>
 <div data-role="page" id="page1" data-theme="d">
 	<div data-role="header" data-position="fixed">
-		<a href="#page1" id="home" data-iconpos="left"><img src="images/btn-home-white.png"></a>
+		<a href="#page1" id="home" data-iconpos="left" class="btn btn-default"><i class="fa fa-home fa-2x"></i></a>
 		<h2>Page One</h2>
 	</div>
 	<div data-role="content">
@@ -77,16 +70,16 @@
 			<li><a href="#page4">Page Four</a></li>
 		</ul>
 	</div>
-	<div data-role="footer">
-		<!--<h4>Page Footer</h4>-->
-	</div>
+	<!--<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>-->
 </div>
 
 
 
 <div data-role="page" id="page3"  data-theme="d">
 			<div data-role="header" data-position="fixed">
-			<a href="#page1" id="home" data-iconpos="left"><img src="images/btn-home-white.png"></a>
+			<a href="#page1" id="home" data-iconpos="left" class="btn btn-default"><i class="fa fa-home fa-2x"></i></a>
 				<h1>Page 3</h1>
 			</div>
 			<div data-role="content">
@@ -97,13 +90,13 @@
 					<li><a href="#page5">Page Five</a></li>
 				</ul>
 			</div>
-			<div data-role="footer">
-				<!--<h4>Page Footer</h4>-->
-			</div>
+			<!--<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>-->
 		</div>
 		<div data-role="page" id="page4"  data-theme="d">
 			<div data-role="header" data-position="fixed">
-				<a href="#page1" id="home" data-iconpos="left"><img src="images/btn-home-white.png"></a>
+				<a href="#page1" id="home" data-iconpos="left" class="btn btn-default"><i class="fa fa-home fa-2x"></i></a>
 				<h1>Page 4</h1>
 			</div>
 			<div data-role="content">
@@ -114,13 +107,13 @@
 				<li><a href="#page5">Page Five</a></li>
               </ul>
 			</div>
-			<div data-role="footer">
-				<!--<h4>Page Footer</h4>-->
-			</div>
+			<!--<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>-->
 		</div>
 		<div data-role="page" id="page5" data-theme="d">
 			<div data-role="header" data-position="fixed">
-            <a href="#page1" id="home" data-iconpos="left"><img src="images/btn-home-white.png"></a>
+            <a href="#page1" id="home" data-iconpos="left" class="btn btn-default"><i class="fa fa-home fa-2x"></i></a>
 				<h1>Page Four</h1>
 			</div>
 			<div data-role="content">
@@ -132,9 +125,9 @@
                 <li><a href="#page6" onClick="return toggle_collapse('15150'); anchor(#page6)">Login Page</a></li>
               </ul>
 			</div>
-			<div data-role="footer">
-				<!--<h4>Page Footer</h4>-->
-			</div>
+		<!--<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>-->
           </div>
            
      
@@ -142,7 +135,7 @@
             
 <div data-role="page" id="page6" data-theme="d">
 	<div data-role="header" data-position="fixed">
-		<a href="#page1" id="home" data-iconpos="left"><img src="images/btn-home-white.png"></a>
+		<a href="#page1" id="home" data-iconpos="left" class="btn btn-default"><i class="fa fa-home fa-2x"></i></a>
 		<h1>Sign in</h1>
 	</div>
 	<div id="block-user-login" role="form" class="block block--user block--user-login login">

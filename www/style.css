@@ -10,19 +10,20 @@
 				margin-bottom: 0.5em;
 				margin-top: -0.5em;
 				padding-bottom: 2.6em;
+				box-shadow: 0 1px 5px #AAAAAA;
 	 }
 div[data-role="header"] {
 	margin-bottom:25px;
 }
 div#splashscreen.ui-page div.ui-content{
 			background:url(images/screen-hdpi-portrait.jpg) repeat scroll transparent !important;
-			padding-top:20%;
+			padding-top:50%;
 		}
-div#splashcreen #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-	}
+
+
+input.ui-input-text, textarea.ui-input-text {
+    background-image: none !important;
+  }
 	
 
 .ui-body-d, .ui-dialog.ui-overlay-d {
@@ -82,7 +83,6 @@ p.preloader {
 }
 
 form#user-login-form {
-	min-width: 300px;
 	max-width: 400px;
 	padding:20px;
 	margin: 0 auto;
@@ -101,15 +101,19 @@ form#user-login-form.user-login-form div ul li a.ui-link {
     text-decoration: none;
 	
 }
+
 a#home.ui-btn-icon-left .ui-btn-inner {
-    padding-left: 10px;
+  	border: medium none;
+    height: 50px;
+    padding: 2px;
+    width: 50px;
 }
 
 a#home {
-	   /*background: url("images/btn-home.png") no-repeat scroll center center rgba(0, 0, 0, 0) !important;*/
-    border: medium none;
-    height: 55px;
-    width: 55px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
 }
 
 .jqm-content > h1 {
