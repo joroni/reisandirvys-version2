@@ -16,6 +16,7 @@ div[data-role="header"] {
 }
 div#splashscreen.ui-page div.ui-content{
 			background:url(images/screen-hdpi-portrait.jpg) repeat scroll transparent !important;
+			padding-top:20%;
 		}
 div#splashcreen #logo {
     display: block;
