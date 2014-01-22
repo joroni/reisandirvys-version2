@@ -14,16 +14,24 @@
 				box-shadow: 0 1px 5px #AAAAAA;
 	 }
 div[data-role="header"] {
-	margin-bottom:25px;
+	padding:20px;
     position: relative !important;
     z-index: 200000 !important;
 }
+
+img.logo {
+	margin:0 auto !important;
 }
+
 div#splashscreen.ui-page div.ui-content{
 			background:url(images/screen-hdpi-portrait.jpg) repeat scroll transparent !important;
-			padding-top:50%;
+			padding-top:300px;
+			
 		}
 
+div.ui-content {
+	margin-top:10px;
+}
 
 input.ui-input-text, textarea.ui-input-text {
     background-image: none !important;
@@ -55,16 +63,20 @@ input.ui-input-text, textarea.ui-input-text {
 .ui-header, .ui-footer, .ui-page-fullscreen .ui-header, .ui-page-fullscreen .ui-footer {
     border-left-width: 0;
     border-right-width: 0;
-    height: 70px !important;
+    height: 50px !important;
     overflow: hidden;
     padding-top: 10px !important;
     position: absolute;
     width: 100%;
 }
 
+.ui-btn-text {
+	font-size: 0.7em !important;
+}
 
 .ui-bar-a, .ui-bar-d {
-       background: linear-gradient(#F944AE, #EC068D) repeat scroll 0 0 #111111 !important;
+    background: url(images/header-tile.png) repeat-x !important;
+	/*background: linear-gradient(#F944AE, #EC068D) repeat scroll 0 0 #111111 !important;*/
     border-bottom: 1px solid #333333 !important;
     box-shadow: 0 1px 12px #FFFFFF;
     color: #FFFFFF;
@@ -108,16 +120,17 @@ form#user-login-form.user-login-form div ul li a.ui-link {
 
 a#home.ui-btn-icon-left .ui-btn-inner {
   	border: medium none;
-    height: 50px;
-    padding: 2px;
-    width: 50px;
+    height: 30px;
+    padding: 5px;
+    width: 30px;
 }
+
 
 a#home {
     border-radius: 30px;
     display: inline-block;
-    font-size: 13px;
-    margin: 0;
+    font-size: 12px;
+    margin: 10px;
 }
 
 .jqm-content > h1 {
